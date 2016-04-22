@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">FragmentInFragmentTabhost</string>
+
+    <string name="first">第一</string>
+    <string name="second">第二</string>
+    <string name="third">第三</string>
+    <string name="fourth">第四</string>
+
+    <string name="first_page">第一个页面</string>
+    <string name="second_page">第二个页面</string>
+    <string name="third_page">第三个页面</string>
+    <string name="fourth_page">第四个页面</string>
 </resources>
