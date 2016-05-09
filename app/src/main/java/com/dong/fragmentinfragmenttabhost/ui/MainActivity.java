@@ -41,12 +41,6 @@ public class MainActivity extends AppCompatActivity {
             Drawable drawable=ContextCompat.getDrawable(this,mainTab.getResIcon());
             textView.setCompoundDrawablesWithIntrinsicBounds(null, drawable,null,null);
             tab.setIndicator(indication);
-//            tab.setContent(new TabHost.TabContentFactory() {
-//                @Override
-//                public View createTabContent(String tag) {
-//                    return new View(MainActivity.this);
-//                }
-//            });
             tabHost.addTab(tab,mainTab.getClz(),null);
             tabHost.getTabWidget().setDividerDrawable(null);//去掉分割线
         }
