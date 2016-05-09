@@ -14,12 +14,9 @@ import com.dong.fragmentinfragmenttabhost.interf.BaseFragmentInterface;
  */
 public class BaseFragment extends Fragment implements BaseFragmentInterface {
 
-    protected LayoutInflater mInflater;
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        mInflater=inflater;
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 

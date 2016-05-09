@@ -33,7 +33,7 @@ public abstract class  BaseViewPageFragment extends BaseFragment {
         mViewPager = (ViewPager) view.findViewById(R.id.viewpager);
         mTabsAdapter=new ViewPagerFragmentAdapter(getChildFragmentManager(),mTabLayout,mViewPager);
 
-       // setTabLayoutFillAndFixed();
+        // setTabLayoutFillAndFixed();
         //setTabLayoutScrollableAndFill();
         setTabLayout(mTabLayout);
         setScreenPageLimit();
